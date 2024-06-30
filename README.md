@@ -1,6 +1,6 @@
-# Python Code Documentation Generator
+# DevDocX 
 
-This project is a Python script designed to generate documentation for Python files within a specified directory. It leverages the Groq API to automatically add comments to the code without modifying its functionality or syntax.
+This is a Python script designed to generate comments for Python files within a specified directory. It leverages the Groq API to automatically add comments to the code without modifying its functionality or syntax.
 
 ## Features
 
@@ -21,19 +21,16 @@ This project is a Python script designed to generate documentation for Python fi
 
    ```bash
    git clone https://github.com/yourusername/python-doc-generator.git
-   cd python-doc-generator```
-   
+   cd python-doc-generator
 2. **Install the required packages:**
 
    ```bash
     pip install groq httpx python-dotenv
-   
 3. **Set up your environment variables:**\
     Create a .env file in the root directory of your project and add your Groq API key:
 
     ```plaintext
     GROQ_API_KEY=your_api_key_here
-
 ## Usage
 
 1. **Run the script:**
