@@ -26,13 +26,13 @@ This project is a Python script designed to generate documentation for Python fi
 2. **Install the required packages:**
 
    ```bash
-    pip install groq httpx python-dotenv```
+    pip install groq httpx python-dotenv
    
 3. **Set up your environment variables:**\
     Create a .env file in the root directory of your project and add your Groq API key:
 
     ```plaintext
-    GROQ_API_KEY=your_api_key_here```
+    GROQ_API_KEY=your_api_key_here
 
 ## Usage
 
