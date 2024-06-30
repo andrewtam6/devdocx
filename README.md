@@ -39,7 +39,7 @@ This project is a Python script designed to generate documentation for Python fi
 1. **Run the script:**
 
     ```bash
-    python document_generator.py```
+    python document_generator.py
 
 2. **Enter the directory path:**
 
@@ -50,14 +50,11 @@ This project is a Python script designed to generate documentation for Python fi
     The script will traverse the directory, document each Python file, and overwrite them with the commented versions.
 
 # Example
-    ```plaintext
     $ python document_generator.py
     Enter the directory path: /path/to/your/python/files
     Generating docs...
     example.py documented
     another_example.py documented
-
-    ```
 
 # Acknowledgments
     Groq for the API.
