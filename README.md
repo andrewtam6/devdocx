@@ -20,8 +20,8 @@ This is a Python script designed to generate comments for Python files within a 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/python-doc-generator.git
-   cd python-doc-generator
+   git clone https://github.com/andrewtam6/devdocx.git
+   cd devdocx
 2. **Install the required packages:**
 
    ```bash
@@ -36,7 +36,7 @@ This is a Python script designed to generate comments for Python files within a 
 1. **Run the script:**
 
     ```bash
-    python document_generator.py
+    python main.py
 
 2. **Enter the directory path:**
 
@@ -47,7 +47,7 @@ This is a Python script designed to generate comments for Python files within a 
     The script will traverse the directory, document each Python file, and overwrite them with the commented versions.
 
 # Example
-    $ python document_generator.py
+    $ python main.py
     Enter the directory path: /path/to/your/python/files
     Generating docs...
     example.py documented
